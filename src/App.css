@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
-}
+/*??????????????????????????FIRST PAGE////////////////////////////////////*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container_1 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.intro {
+  width: 100vw;
+  height: 815px;
+  background: url("images/photo-1433354359170-23a4ae7338c6.png")
+  center no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  z-index: 1;
+}
+.intro_inner {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.intro_title {
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: Exo, sans-serif;
+}
+.icon_1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.try_now {
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  justify-content: center;
+}
+.try_now_text{
+  position: absolute;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 16px;
+}
+.bottom_text {
+  text-align: center;
+  margin-top: 10px;
+  color: gray;
+}
+.bottom_text_1 {
+  font-weight: 400;
+  font-size: 14px;
+}
+/*///////////////////////////////////SECOND PAGE///////////////////////////////////*/
+.second {
+  width: 100vw;
+  height: 724px;
+}
+.main_about {
+  display: flex;
+  padding-bottom: 0px;
+}
+.container_right {
+  margin-left: auto;
+}
+.container_left {
+  width: 570px;
+  margin: 0 auto;
+  padding: 190px 0 0 0;
+}
+.container_left h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.container_left p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  line-height: 26px;
+}
+.red_text {
+  font-size: 16px;
+  color: indianred;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.red {
+  color: indianred;
+}
+/*//////////////////////////////THIRD PAGE/////////////////////////////*/
+.third {
+  width: 100vw;
+  height: 700px;
+  background: url("images/BG2.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Exo, sans-serif;
+}
+.container_3 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.header3 {
+  text-align: center;
+  padding-bottom: 90px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.second_card {
+  text-align: center;
+  width: 420px;
+}
+.first_card {
+  text-align: center;
+  width: 420px;
+  padding: 0 25px 0 0;
+}
+.third_card {
+  text-align: center;
+  width: 420px;
+  padding: 0 0 0 25px;
+}
+.card_text3 {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.header_red_text {
+  color: indianred;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.header_text {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.card_text_p {
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
+}
+/*//////////////////////////////////FOURTH///////////////////////////*/
+.fourth {
+  background: url("images/Rectangle 21 copy 2.png") no-repeat;
+  width: 100vw;
+  height: 550px;
+}
+.container4 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.leftSide {
+  padding: 100px 0px 100px 70px;
+}
+.rightSide {
+  width: 667px;
+  margin: 0 auto;
+  padding: 140px 140px 0 0;
+}
+.rightSide h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.rightSide p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  line-height: 26px;
+}
+/*////////////////////////////FIFTH PAGE/////////////////////////*/
+.Fifth {
+  background: url("images/ULABG.png") no-repeat;
+  height: 650px;
+  width: 100vw;
+  background-size: cover;
+}
+.container5 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
+}
+.top_content5 {
+  display: flex;
+  justify-content: center;
+}
+.card5 {
+  width: 420px;
+  text-align: center;
+  padding: 0px 30px 0 30px;
+}
+.name5 {
   color: white;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.position5 {
+  color: indianred;
+  font-size: 16px;
+}
+.about5 {
+  margin-top: 40px;
+  color: gray;
+  font-size: 16px;
+  font-family: Exo, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.logos5{
+  padding: 70px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.logo5{
+  padding: 0 60px 0 60px;
+}
+/*///////////////////////////////SIXTH PAGE////////////////////////////*/
+.sixth {
+  background-color: aliceblue;
+  height: 760px;
+  width: 100vw;
+  font-family: Exo, sans-serif;
+}
+.container6 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0 0 0;
+
+}
+.header6 {
+  margin: 0 auto;
+  width: 750px;
+}
+.header_h1_6 {
+  font-size: 40px;
+}
+.text6 {
+  margin-top: 35px;
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.bot_img {
+  margin-top: 103px;
+}
+/*///////////////////////////////SEVENTH PAGE/////////////////////////////*/
+.Seventh {
+  background: url("images/bg7.png") no-repeat;
+  background-size: cover;
+  height: 470px;
+  width: 100vw;
+  font-family: Exo, sans-serif;
+}
+.container7 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0 0px 0;
+}
+.header7 {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 1px;
+}
+.input7 {
+  height: 50px;
+  width: 260px;
+  background: rgba(255, 255, 255, .1);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 3px;
+  outline: none;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+.content7 {
+  display: flex;
+  justify-content: center;
+}
+.button7 {
+
+}
+.btn7 {
+  height: 50px;
+  width: 260px;
+  background-color: indianred;
+  border-radius: 5px;
+  border-color: indianred;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+}
+.arrow_text7 {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.top_btn_text7{
+  font-size: 16px;
+  color: lightgray;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.footer_text7 {
+  color: gray;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+.footer_text7 span {
+  text-decoration: underline;
+}
+/*//////////////////////////////////Header/////////////////////////////*/
+.NavbarHeader {
+  font-family: Exo, sans-serif;
+}
+.SignIn_btn {
+  /*width: 158px;*/
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
